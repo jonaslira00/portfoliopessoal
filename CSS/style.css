@@ -4,8 +4,6 @@
     box-sizing: border-box;    
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
-
 body{
     background-color: #222d49;
     font-family: "Caveat", cursive;
@@ -359,4 +357,5 @@ footer{
         width: 60%;
     }
 }
+
 /*Fim responsividade*/
