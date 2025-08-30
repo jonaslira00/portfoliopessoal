@@ -8,6 +8,7 @@
 
 body{
     background-color: #222d49;
+    font-family: "Caveat", cursive;
 }
 
 /*Começo Estilização do menu*/
@@ -282,9 +283,12 @@ footer{
     font-size: 14px;
        
 }
+/*Fim da estilização do rodapé*/
 
+/*Começo responsividade*/
 @media (max-width: 1500px) {
     header {
+        position: relative;
         width: 100%;
         border-radius: 0;
     }
@@ -310,7 +314,7 @@ footer{
         background: #10182c;        
     }
     .conteudopai {
-        margin-top: 120px;
+        margin-top: 30px;
     }
     .conteudofilho {
         width: 98%;
@@ -320,8 +324,7 @@ footer{
         flex-direction: column;
         align-items: center;
     }
-    .index img {
-        width: 90vw;
+    .index img {        
         max-width: 300px;
         margin-bottom: 20px;
     }
@@ -356,3 +359,4 @@ footer{
         width: 60%;
     }
 }
+/*Fim responsividade*/
